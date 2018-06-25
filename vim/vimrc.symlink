@@ -12,7 +12,7 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Raimondi/delimitMate'
 
 " fuzzy file finder
-Plug '/usr/local/opt/fzf'
+Plug '~/.fzf'
 
 " langs et al
 Plug 'cespare/vim-toml'
