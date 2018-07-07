@@ -9,7 +9,11 @@ rupa/z
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 
+owenstranathan/pipenv.zsh
+
+########################################
 # these should be at last!
 sindresorhus/pure
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
+########################################
