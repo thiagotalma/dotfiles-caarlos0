@@ -1,0 +1,4 @@
+zsh
+jq
+atool
+git

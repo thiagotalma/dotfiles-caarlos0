@@ -78,6 +78,11 @@ link_file() {
 	success "linked $1 to $2"
 }
 
+install_required() {
+	info 'installing required apt'
+	cat "$DOTFILES_ROOT/system/apt.txt" | sudo apt install -y
+}
+
 install_dotfiles() {
 	info 'installing dotfiles'
 	find -H "$DOTFILES_ROOT" -maxdepth 3 -name '*.symlink' -not -path '*.git*' |
@@ -96,6 +101,7 @@ find_zsh() {
 }
 
 setup_gitconfig
+install_required
 install_dotfiles
 
 info "installing dependencies"
