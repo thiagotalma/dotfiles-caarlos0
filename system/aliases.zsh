@@ -46,8 +46,8 @@ alias ..5="cd ../../../../.."
 alias cls='clear'
 
 # Pretty-print of some PATH variables:
-alias path="echo -e ${PATH//:/\\n}"
-alias libpath="echo -e ${LD_LIBRARY_PATH//:/\\n}"
+alias path='echo -e ${PATH//:/\\n}'
+alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
 
 # find files in our current directory
 alias fhere="find . -name "
