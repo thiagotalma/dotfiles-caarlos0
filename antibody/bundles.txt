@@ -10,7 +10,6 @@ zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 
 owenstranathan/pipenv.zsh
-gangleri/pipenv
 
 ########################################
 # these should be at last!
