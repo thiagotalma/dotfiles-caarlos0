@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+TIMEFMT=$'real %E\tuser %U\tsys %S'
+while true; do {time zsh -i -c exit}; sleep .4; done;
