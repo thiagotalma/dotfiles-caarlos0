@@ -1,6 +1,5 @@
 #!/bin/sh
 set -e
-set -x
 test -z "$TMPDIR" && TMPDIR="$(mktemp -d)"
 
 get_download_url() {
@@ -33,5 +32,5 @@ download_url="$(get_download_url)"
 download $download_url
 extract || true
 sudo mv -f "$TMPDIR"/**/rg /usr/local/bin/rg
-sudo mv -f "$TMPDIR"/**/complete/rg /usr/share/zsh/vendor-completions/_rg
+sudo mv -f "$TMPDIR"/**/complete/_rg /usr/share/zsh/vendor-completions/_rg
 which rg
