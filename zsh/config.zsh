@@ -78,10 +78,3 @@ bindkey '^?' backward-delete-char
 bindkey '^[[3;5~' backward-delete-word
 # bindkey '^[[3~' backward-delete-word
 
-# search history with fzf if installed, default otherwise
-if test -d ~/.fzf/shell; then
-	# shellcheck disable=SC1091
-	. ~/.fzf/shell/key-bindings.zsh
-else
-	bindkey '^R' history-incremental-search-backward
-fi
