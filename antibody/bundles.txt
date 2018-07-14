@@ -9,6 +9,10 @@ rupa/z
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 zlsun/solarized-man
+wfxr/forgit                           # atalhos para o git
+andrewferrier/fzf-z                   # ctrl+G
+djui/alias-tips
+b4b4r07/enhancd
 
 ########################################
 # these should be at last!
