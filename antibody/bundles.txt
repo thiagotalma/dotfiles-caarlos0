@@ -14,6 +14,8 @@ andrewferrier/fzf-z                   # ctrl+G
 djui/alias-tips
 b4b4r07/enhancd
 
+robbyrussell/oh-my-zsh folder:plugins/yii2
+
 ########################################
 # these should be at last!
 sindresorhus/pure
