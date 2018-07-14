@@ -8,4 +8,4 @@ else
   git --work-tree /usr/local/opt/fzf reset --quiet --hard @{u}
 fi
 
-/usr/local/opt/fzf --bin
+/usr/local/opt/fzf/install --bin
