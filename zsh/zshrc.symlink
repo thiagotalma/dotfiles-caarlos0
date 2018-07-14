@@ -41,6 +41,14 @@ done
 
 unset config_files updated_at
 
+# search history with fzf if installed, default otherwise
+if test -d /usr/local/opt/fzf/shell; then
+  # shellcheck disable=SC1091
+  . /usr/local/opt/fzf/shell/key-bindings.zsh
+else
+  bindkey '^R' history-incremental-search-backward
+fi
+
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 # shellcheck disable=SC1090

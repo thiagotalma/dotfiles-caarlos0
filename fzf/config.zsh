@@ -1,2 +1,0 @@
-
-export FZF_COMPLETION_TRIGGER='**'
