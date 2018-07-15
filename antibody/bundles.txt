@@ -11,6 +11,7 @@ zsh-users/zsh-autosuggestions
 zlsun/solarized-man
 wfxr/forgit                           # atalhos para o git
 andrewferrier/fzf-z                   # ctrl+G
+wfxr/formarks                         # ctrl+B
 djui/alias-tips
 b4b4r07/enhancd
 
