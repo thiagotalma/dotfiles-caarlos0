@@ -13,6 +13,7 @@ wfxr/forgit                           # atalhos para o git
 andrewferrier/fzf-z                   # ctrl+G
 djui/alias-tips
 b4b4r07/enhancd
+liangguohuan/fzf-marker
 
 robbyrussell/oh-my-zsh folder:plugins/yii2
 
