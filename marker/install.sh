@@ -8,4 +8,4 @@ else
   git --work-tree /usr/local/opt/marker reset --quiet --hard @{u}
 fi
 
-/usr/local/opt/marker/install.py
+/usr/local/opt/marker/install.py 2>/dev/null

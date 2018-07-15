@@ -35,7 +35,7 @@ alias mv="mv -iv"                 # Move sempre com confirmação
 alias watch='watch '
 
 # Pastas
-alias ..="cd .."
+alias ..="cd ./.."
 alias ...="cd ../.."
 alias ..2="cd ../.."
 alias ..3="cd ../../.."
