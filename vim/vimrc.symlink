@@ -12,7 +12,7 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Raimondi/delimitMate'
 
 " fuzzy file finder
-Plug '~/.fzf'
+Plug '/usr/local/opt/fzf'
 
 " langs et al
 Plug 'cespare/vim-toml'
@@ -58,6 +58,7 @@ filetype plugin indent on    " required
 "
 " Settings
 "
+set pastetoggle=<F2>            " Toggle paste mode
 set noerrorbells                " No beeps
 set number                      " Show line numbers
 set backspace=indent,eol,start  " Makes backspace key more powerful.
