@@ -2,3 +2,4 @@ zsh
 jq
 atool
 git
+highlight

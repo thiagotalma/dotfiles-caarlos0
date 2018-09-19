@@ -1,6 +1,7 @@
 Host *
-  ServerAliveInterval 60
-  StrictHostKeyChecking no
+  ForwardAgent yes
+  ServerAliveInterval 300
+  ServerAliveCountMax 2
 #  UseKeychain yes
 
 #Include ~/.ssh/config.local
